@@ -8,6 +8,6 @@ namespace Bridge
 
         protected Vehicle(List<IWorkshop> workshops) => _workshops = workshops;
 
-        abstract public void Manufacture();
+        public abstract void Manufacture();
     }
 }

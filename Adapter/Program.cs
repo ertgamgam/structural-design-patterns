@@ -13,11 +13,11 @@ namespace Adapter
             IBird bird = new Sparrow();
             bird.MakeSound();
 
-            BirdObjectAdapter birdAdapter = new BirdObjectAdapter(bird);
-            birdAdapter.Squeak();
+            BirdObjectAdapter birdObjectAdapter = new BirdObjectAdapter(bird);
+            birdObjectAdapter.Squeak();
 
-            SparrowClassAdapter sparrowAdapter = new SparrowClassAdapter();
-            sparrowAdapter.Squeak();
+            BirdClassAdapter birClassAdapter = new BirdClassAdapter();
+            birClassAdapter.Squeak();
         }
     }
 }

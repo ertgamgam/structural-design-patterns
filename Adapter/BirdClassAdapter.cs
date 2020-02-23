@@ -1,6 +1,6 @@
 namespace Adapter
 {
-    public class SparrowClassAdapter : Sparrow, IToyDuck
+    public class BirdClassAdapter : Sparrow, IToyDuck
     {
         public void Squeak()
         {
